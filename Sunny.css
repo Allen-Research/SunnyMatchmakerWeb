@@ -98,7 +98,7 @@
 }
 
 .button:hover {
-  background: #4837ff;
+  background: #f0bb3e;
   transition: all 0.3s ease;
 }
 
@@ -223,7 +223,7 @@
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 50px;
+  padding-left: 50px;
 }
 
 .main_content h1 {
@@ -329,7 +329,7 @@ main_btn:hover {
   width: 80%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .main_container {
     display: grid;
     grid-template-columns: auto;
@@ -411,6 +411,7 @@ main_btn:hover {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  padding-top: 130px;
 }
 
 .services_container {
