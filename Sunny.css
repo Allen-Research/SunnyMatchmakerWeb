@@ -642,7 +642,7 @@ main_btn:hover {
 }
 
 /* Business Page css */
-
+/*
 .opportunity {
   background: #fff5d7;
   display: flex;
@@ -656,8 +656,21 @@ main_btn:hover {
   width: 80%;
 }
 
+#business h1 {
+  background-image: linear-gradient(
+  to top,
+    #f1a919 0%,
+    #F7882F 100%);
+  background-size: 100%;
+  font-size: 10rem;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
 .opp_content h2 {
-  background-color: #ff8177;
+  background: #fff5d7;
   background-image: linear-gradient(to right,
   #ff8177 0%,
   #ff867a 0%,
@@ -666,7 +679,7 @@ main_btn:hover {
   #cf556c 78%,
   #b12a5b 100%);
   background-size: 100%;
-  font-size: 8rem;
+  font-size: 10rem;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -695,14 +708,13 @@ margin: auto;
   align-items: center;
   margin: 20px;
 }
-
+*/
 #problem {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 90vh;
   background-color: #fff5d7;
   z-index: 1;
   width: 100%;
@@ -726,7 +738,7 @@ margin: auto;
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: #fff5d7;
+  background: #fff5d7;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
