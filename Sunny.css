@@ -650,6 +650,12 @@ main_btn:hover {
   align-items: center;
   height: 100%;
 }
+
+.opportunity img {
+  height: 80%;
+  width: 80%;
+}
+
 .opp_content h2 {
   background-color: #ff8177;
   background-image: linear-gradient(to right,
@@ -672,6 +678,8 @@ main_btn:hover {
   font-size: 2rem;
   font-weight: 700;
   color: #131313;
+  display: block;
+  align-items: center;
 }
 
 .opp_content {
@@ -681,6 +689,7 @@ main_btn:hover {
   flex-wrap: wrap;
   margin: auto;
   align-items: center;
+  margin: 20px;
 }
 
 #problem {
@@ -704,6 +713,25 @@ main_btn:hover {
   flex-wrap: wrap;
   margin: auto;
   align-items: center;
+}
+
+#friends_and_fam {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #fff5d7;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
+}
+
+#what_if h2{
+  font-size: 3rem;
+
 }
 
 
