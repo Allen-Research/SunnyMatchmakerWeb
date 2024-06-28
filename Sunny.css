@@ -673,6 +673,10 @@ main_btn:hover {
   -moz-text-fill-color: transparent;
 }
 
+.opp_container {
+margin: auto;
+}
+
 .opp_content p {
   margin-top: 1rem;
   font-size: 2rem;
@@ -729,9 +733,19 @@ main_btn:hover {
   padding: 0 50px;
 }
 
+#friends_and_fam img {
+  display: flex;
+  align-items: center;
+}
+
+.ff_text {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
 #what_if h2{
   font-size: 3rem;
-
 }
 
 
