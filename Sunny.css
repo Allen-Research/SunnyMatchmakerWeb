@@ -760,7 +760,7 @@ align-items: center;
   position: relative;
   top: auto;
   text-align: center;
-  width: 830px;
+  width: 80%;
   padding: 30px;
 }
 
@@ -772,7 +772,7 @@ align-items: center;
 }
 .LLM_container p {
   margin: 20px;
-  width: 200px;
+  width: 10%;
   font-size: 1.7rem;
   text-align: left;
 }
