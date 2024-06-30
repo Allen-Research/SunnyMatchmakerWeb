@@ -642,7 +642,7 @@ main_btn:hover {
 }
 
 /* Business Page css */
-/*
+
 .opportunity {
   background: #fff5d7;
   display: flex;
@@ -708,7 +708,7 @@ margin: auto;
   align-items: center;
   margin: 20px;
 }
-*/
+
 #problem {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -723,7 +723,6 @@ margin: auto;
 }
 
 .problem_content {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
@@ -733,7 +732,7 @@ margin: auto;
 
 #friends_and_fam {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1f;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
@@ -757,7 +756,74 @@ align-items: center;
 }
 
 #what_if h2{
-  font-size: 3rem;
+  font-size: 4rem;
+  position: relative;
+  top: auto;
+  text-align: center;
+  width: 830px;
+  padding: 30px;
+}
+
+.LLM_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.LLM_container p {
+  margin: 20px;
+  width: 200px;
+  font-size: 1.7rem;
+  text-align: left;
+}
+
+
+.LLM {
+  margin: 25px;
+  height: 200px;
+  width: 230px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/pink/walkingOut.svg);
+  background-size: cover;
+  position: relative;
+  color: #131313;
+}
+
+.LLM2 {
+  margin: 25px;
+  height: 200px;
+  width: 230px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/pink/texting.svg);
+  background-size: cover;
+  position: relative;
+  color: #131313;
+}
+
+.LLM3 {
+  margin: 25px;
+  height: 200px;
+  width: 230px;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/pink/loveBalloon.svg);
+  background-size: cover;
+  position: relative;
+  color: #131313;
 }
 
 
