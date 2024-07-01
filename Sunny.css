@@ -882,7 +882,7 @@ align-items: center;
 
 @media screen and (max-width: 450px) {
   #main_business {
-    height: 240vh;
+    height: 180vh;
   }
 
   .LLM_container p {
