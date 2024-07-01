@@ -652,6 +652,7 @@ main_btn:hover {
   flex-direction: column;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .opportunity img {
@@ -852,20 +853,25 @@ align-items: center;
     align-items: center;
     width: 100%;
     margin: 0 auto;
+    padding: 20px;
   }
 
-  .LLM_container p {
+  .LLM_container_text p {
     font-size: 4vw;
     text-align: left;
+    padding-right: 20px;
   }
 
   .LLM_container_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
   }
 
   #LLM {
     margin: 25px;
-    height: 60vw;
+    height: 100%;
     width: 70vw;
     border-radius: 4px;
   }
