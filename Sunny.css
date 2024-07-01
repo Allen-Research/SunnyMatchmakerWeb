@@ -674,16 +674,8 @@ main_btn:hover {
 }
 
 .opp_content h2 {
-  background: #fff5d7;
-  background-image: linear-gradient(to right,
-  #b12a2a 0%,
-  #b12a2a 100%);
-  background-size: 100%;
+  color: rgb(50, 50, 75);
   font-size: 10rem;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .opp_container {
@@ -704,7 +696,7 @@ main_btn:hover {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #131313;
+  color: rgb(50, 50, 75);
   display: block;
   align-items: center;
 }
@@ -771,7 +763,7 @@ align-items: center;
   align-items: center;
 }
 
-#what_if h2{
+#what_if h2 {
   font-size: 4rem;
   position: relative;
   top: auto;
@@ -858,13 +850,17 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
   }
 
   .LLM_container p {
-    font-size: 3.3vw;
+    font-size: 4vw;
     text-align: left;
+  }
+
+  .LLM_container_text {
+    margin: 0 auto;
   }
 
   #LLM {
@@ -904,6 +900,10 @@ align-items: center;
     width: 100%;
     max-width: 1300px;
     padding: 50px;
+  }
+
+  #what_if h2 {
+    font-size: 10vw;
   }
 }
 
