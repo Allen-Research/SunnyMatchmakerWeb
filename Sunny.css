@@ -225,6 +225,10 @@
   max-width: 1300px;
 }
 
+.main_content {
+  margin: 0 auto;
+}
+
 .main_content h1 {
   font-size: 4rem;
   background-color: #fceabb;
@@ -336,7 +340,7 @@ main_btn:hover {
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 50vh;
+    height: 90vh;
   }
 
   .main_content {
@@ -347,7 +351,6 @@ main_btn:hover {
 
   .main_content h1 {
     font-size: 3rem;
-    margin-top: 2rem;
   }
 
   .main_content h2 {
@@ -369,7 +372,7 @@ main_btn:hover {
 }
 
 @media screen and (max-width: 480px) {
-  .main_xcontent h1 {
+  .main_content h1 {
     font-size: 2rem;
     margin-top: 3rem;
   }
@@ -399,7 +402,8 @@ main_btn:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .services h1 {
@@ -418,7 +422,6 @@ main_btn:hover {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  padding-top: 130px;
 }
 
 .services_container {
@@ -485,10 +488,6 @@ main_btn:hover {
 }
 
 @media screen and (max-width: 960px) {
-  .services {
-    height: 1600px;
-  }
-
   .services h1 {
     font-size: 2rem;
     margin-top: 12rem;
@@ -496,9 +495,6 @@ main_btn:hover {
 }
 
 @media screen and (max-width: 480px) {
-  .services {
-    height: 1400px;
-  }
 
   .services h1 {
     font-size: 1.2rem;
@@ -651,7 +647,7 @@ main_btn:hover {
 /* Business Page css */
 
 .opportunity {
-  background: #fff5d7;
+  background: #bfcbdb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -680,12 +676,8 @@ main_btn:hover {
 .opp_content h2 {
   background: #fff5d7;
   background-image: linear-gradient(to right,
-  #ff8177 0%,
-  #ff867a 0%,
-  #ff8c7f 21%,
-  #f99185 52%,
-  #cf556c 78%,
-  #b12a5b 100%);
+  #b12a2a 0%,
+  #b12a2a 100%);
   background-size: 100%;
   font-size: 10rem;
   -webkit-background-clip: text;
@@ -695,7 +687,17 @@ main_btn:hover {
 }
 
 .opp_container {
-margin: auto;
+  margin: auto;
+  background: #bfcbdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.opp_container img {
+  height: 80%;
+  width: 80%;
 }
 
 .opp_content p {
@@ -723,7 +725,7 @@ margin: auto;
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  background-color: #fff5d7;
+  background-color: #6B7A8F;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -745,7 +747,7 @@ margin: auto;
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background: #fff5d7;
+  background: #6B7A8F;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -788,7 +790,7 @@ align-items: center;
   flex-direction: column;
   align-items: center;
   width: 30%;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -842,7 +844,7 @@ align-items: center;
 }
 
 @media screen and (max-width: 850px) {
-  #business_container {
+  #main_business {
     height: 120vh;
   }
 
