@@ -98,7 +98,7 @@
 }
 
 .button:hover {
-  background: #f0bb3e;
+  background: #FDC830;
   transition: all 0.3s ease;
 }
 
@@ -209,7 +209,7 @@
 /* Main Section CSS */
 
 .main {
-  background-color: #fff5d7;
+  background-color: #fceabb;
 }
 
 .main_container {
@@ -219,11 +219,10 @@
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background-color: #fff5d7;
+  background-color: #fceabb;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding-left: 50px;
 }
 
 .main_content h1 {
@@ -231,8 +230,8 @@
   background-color: #fceabb;
   background-image: linear-gradient(
     to top,
-    #f0bb3e 0%,
-    #fceabb 100%);
+    #f83600 0%,
+    #ffc500 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -245,8 +244,8 @@
   background-color: #F7C331;
   background-image: linear-gradient(
     to top,
-    #ff7e5f 0%,
-    #feb47b 100%);
+    #e92b05 0%,
+    #fd8d98 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -279,8 +278,8 @@
   font-size: 1rem;
   background-image: linear-gradient(
     to top,
-    #ff7e5f 0%,
-    #feb47b 100%);
+    #ff5e62 0%,
+    #ff9966 100%);
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
@@ -306,7 +305,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #F7C331;
+  background: #FDC830;
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -363,6 +362,10 @@ main_btn:hover {
   #main_img2 {
     display: none;
   }
+
+  .services {
+    padding-top: 50px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -392,7 +395,7 @@ main_btn:hover {
 
 /* Servcies Section*/
 .services {
-  background: #fff5d7;
+  background: #fceabb;
   display: flex;
   flex-direction: column;
   align-items: center;
