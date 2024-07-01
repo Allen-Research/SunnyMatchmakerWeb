@@ -884,6 +884,29 @@ align-items: center;
   }
 }
 
+@media screen and (max-width: 450px) {
+  #main_business {
+    height: 240vh;
+  }
+
+  .LLM_container p {
+    font-size: 5vw;
+  }
+
+  #problem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    background-color: #6B7A8F;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 50px;
+  }
+}
+
 
 
 /* colors
