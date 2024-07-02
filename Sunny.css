@@ -681,11 +681,12 @@ main_btn:hover {
 
 .opp_container {
   margin: auto;
-  background: #bfcbdb;
+  background: #6B7A8F;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .opp_container img {
@@ -831,7 +832,7 @@ align-items: center;
 
 #LLM {
   margin: 25px;
-  height: 210px;
+  height: 25vw;
   width: 100%;
   border-radius: 4px;
 }
@@ -871,7 +872,7 @@ align-items: center;
 
   #LLM {
     margin: 25px;
-    height: 100%;
+    height: 60VW;
     width: 70vw;
     border-radius: 4px;
   }
