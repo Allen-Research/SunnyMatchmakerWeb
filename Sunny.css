@@ -8,15 +8,15 @@
 
 .navbar {
   background:#fff;
-  height: 80px;
+  height: 82px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 999;
-  border-bottom: 1px solid #333333;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .navbar_container {
@@ -72,6 +72,7 @@ button {
   align-items: center;
   padding: 0 1rem;
   width: 100%;
+  font-size: 1.2rem;
 }
 
 .button {
@@ -501,7 +502,7 @@ main_btn:hover {
 /* footer CSS */
 
 .footer_container {
-  background-color: #fff5d7;
+  background-color: #fff;
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
