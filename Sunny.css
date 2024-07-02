@@ -85,13 +85,13 @@ button {
   width: 100%;
   border: none;
   outline: none;
-  background: #f77062;
+  background: #FDC830;
   color: #131313;
   border-radius: 20px;
 }
 
 .button:hover {
-  background: #FDC830;
+  background: #f77062;
   transition: all 0.3s ease;
 }
 
@@ -203,20 +203,21 @@ button {
 /* Main Section CSS */
 
 .main {
-  background-color: #fceabb;
+  background-color: rgb(229, 247, 255);
 }
 
 .main_container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-self: center;
   margin: 0 auto;
+  justify-self: center;
   height: 90vh;
-  background-color: #fceabb;
+  background-color: rgb(229, 247, 255);
   z-index: 1;
   width: 100%;
   max-width: 1300px;
+  padding: 20px;
 }
 
 .main_content {
@@ -317,13 +318,11 @@ main_btn:hover {
 }
 
 .main_img_container {
-  text-align: center;
-  padding: 30px;
+  margin: 0 auto;
 }
-
-#main_img {
-  height: 80%;
-  width: 80%;
+.main_img_container img {
+  width: 50vh;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 850px) {
@@ -354,10 +353,6 @@ main_btn:hover {
   .main_content p {
     margin-top: 1rem;
     font-size: 1.5rem;
-  }
-
-  #main_img2 {
-    display: none;
   }
 
   .services {
@@ -392,13 +387,15 @@ main_btn:hover {
 
 /* Servcies Section*/
 .services {
-  background: #fceabb;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+/* old background #fceabb*/
 
 .services h1 {
   background-color: #ff8177;
@@ -647,6 +644,19 @@ main_btn:hover {
   align-items: center;
   height: 100%;
   width: 100%;
+}
+
+#main_bus_img {
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  object-position: 35% 35%;
+  height: 80vh;
+  top: 0;
+  left: 0;
 }
 
 .opportunity img {
@@ -908,8 +918,24 @@ align-items: center;
   }
 }
 
+/* app css */
+#main_app_img {
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  object-fit: cover;
+  object-position: 0 0;
+  height: 80vh;
+  top: 0;
+  left: 0;
+}
 
-
+#product_button_container {
+  width: 100%;
+  margin: 100px auto;
+}
 /* colors
 
 Blueberry #6B7A8F
