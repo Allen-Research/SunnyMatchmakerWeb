@@ -1,3 +1,4 @@
+/* #nav */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -91,12 +92,12 @@ button {
 }
 
 .button:hover {
-  background: #f77062;
+  background: #ff930e;
   transition: all 0.3s ease;
 }
 
 .navbar_links:hover {
-  color: #f77062;
+  color: #f86300;
   transition: all 0.3s ease;
 }
 
@@ -198,12 +199,12 @@ button {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+/*#endnav*/
 
-
-/* Main Section CSS */
+/* #main* /
 
 .main {
-  background-color: rgb(229, 247, 255);
+  background-color: #fff5d7;
 }
 
 .main_container {
@@ -213,7 +214,7 @@ button {
   margin: 0 auto;
   justify-self: center;
   height: 90vh;
-  background-color: rgb(229, 247, 255);
+  background-color: #fff5d7;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -275,10 +276,7 @@ button {
 
 .main_btn {
   font-size: 1rem;
-  background-image: linear-gradient(
-    to top,
-    #ff5e62 0%,
-    #ff9966 100%);
+  background-color: #fe9d00;
   padding: 14px 32px;
   border: none;
   border-radius: 20px;
@@ -323,6 +321,15 @@ main_btn:hover {
 .main_img_container img {
   width: 50vh;
   border-radius: 20px;
+}
+
+#home_main_content button {
+  margin: 0 0 0 20vh;
+  padding: auto;
+}
+
+.home_btn_container {
+  padding: 5vh;
 }
 
 @media screen and (max-width: 850px) {
@@ -383,9 +390,9 @@ main_btn:hover {
     margin-top: 20px;
   }
 }
+/*#endmain*/
 
-
-/* Servcies Section*/
+/* #services */
 .services {
   background: #fff;
   display: flex;
@@ -398,14 +405,10 @@ main_btn:hover {
 /* old background #fceabb*/
 
 .services h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right,
-  #ff8177 0%,
-  #ff867a 0%,
-  #ff8c7f 21%,
-  #f99185 52%,
-  #cf556c 78%,
-  #b12a5b 100%);
+  background-color: #fff;
+  background-image: linear-gradient(to left,
+    #f83600 0%,
+    #ffc500 100%);
   background-size: 100%;
   margin-bottom: 5rem;
   font-size: 2.5rem;
@@ -422,9 +425,9 @@ main_btn:hover {
 }
 
 .services_card {
-  margin: 1rem;
-  height: 525px;
-  width: 400px;
+  margin: 2rem;
+  height: 55vh;
+  width: 22vw;
   border-radius: 4px;
   background-image: linear-gradient(
     to bottom,
@@ -433,7 +436,7 @@ main_btn:hover {
   ),
   url(images/iceskating.svg);
   background-size: cover;
-  position: relative;
+  background-position: 45%;
   color: #131313;
 }
 
@@ -444,17 +447,18 @@ main_btn:hover {
     rgba(17, 17, 17, 0.6) 100%
   ),
   url(images/phoneHeart.svg);
+  background-position: top;
 }
 
 .services h2 {
-  position: absolute;
-  top: 350px;
+  position: relative;
+  top: 290px;
   left: 30px;
 }
 
 .services_card p {
-  position: absolute;
-  top: 400px;
+  position: relative;
+  top: 300px;
   left: 30px;
 }
 
@@ -465,8 +469,8 @@ main_btn:hover {
   outline: none;
   border-radius: 4px;
   background: #f77062;
-  position: absolute;
-  top: 440px;
+  position: relative;
+  top: 310px;
   left: 30px;
   font-size: 1rem;
   cursor: pointer;
@@ -495,8 +499,9 @@ main_btn:hover {
     width: 300px;
   }
 }
+/* #endregion*/
 
-/* footer CSS */
+/* #footer */
 
 .footer_container {
   background-color: #fff;
@@ -634,8 +639,17 @@ main_btn:hover {
     flex-direction: column;
   }
 }
+/*#endregion*/
 
-/* Business Page css */
+/* #business */
+
+#main_business {
+  background-color: #fceabb;
+}
+
+#main_business_container {
+  background-color: #fceabb;
+}
 
 .opportunity {
   background: #bfcbdb;
@@ -787,8 +801,8 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
-  padding: 10px;
+  width: 30vw;
+  padding: 1.5vw;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -917,8 +931,9 @@ align-items: center;
     font-size: 10vw;
   }
 }
+/* #endregion */
 
-/* app css */
+/* #product */
 #main_app_img {
   border-radius: 10px;
   width: 100%;
@@ -932,10 +947,57 @@ align-items: center;
   left: 0;
 }
 
-#product_button_container {
-  width: 100%;
-  margin: 100px auto;
+#product_main {
+  background-color: #dff6ff;
 }
+
+#product_main_container {
+  background-color: #dff6ff;
+}
+
+#product2 {
+  background-color: #fff;
+}
+
+.prod_img1 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/real/branches.jpg);
+  background-size: cover;
+  position: relative;
+  color: #131313;
+}
+
+.prod_img2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/real/birdsSunset.jpg);
+  background-size: cover;
+  position: relative;
+  color: #131313;
+}
+
+.prod_img3 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/real/flowersInSun.jpg);
+  background-size: cover;
+  position: relative;
+  color: #131313;
+}
+
+/*#endregion*/
+
+
 /* colors
 
 Blueberry #6B7A8F
