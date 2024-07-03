@@ -643,6 +643,7 @@ main_btn:hover {
 
 /* #business */
 
+/*#business_section1*/
 #main_business {
   background-color: #fceabb;
 }
@@ -692,31 +693,23 @@ main_btn:hover {
   -moz-text-fill-color: transparent;
 }
 
+/*#endregion*/
+
+/*#business_opportunity*/
+.opportunity {
+  background-color: #e6afa0;
+}
+
 .opp_content h2 {
-  color: rgb(50, 50, 75);
-  font-size: 10rem;
-}
-
-.opp_container {
-  margin: auto;
-  background: #6B7A8F;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.opp_container img {
-  height: 80%;
-  width: 80%;
+  color: #1d1d1d;
+  font-size: 8rem;
 }
 
 .opp_content p {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
-  color: rgb(50, 50, 75);
+  color: #1d1d1d;
   display: block;
   align-items: center;
 }
@@ -737,7 +730,7 @@ main_btn:hover {
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  background-color: #6B7A8F;
+  background-color: transparent;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -759,7 +752,7 @@ main_btn:hover {
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
-  background: #6B7A8F;
+  background: #dff6ff;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -784,16 +777,17 @@ align-items: center;
 }
 
 #what_if h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   position: relative;
   top: auto;
   text-align: center;
-  width: 90%;
-  padding: 30px;
+  width: 70vw;
+  padding-top: 10vh;
 }
 
 #LLM_wrap {
   width: 100%;
+  max-width: 1300px;
   margin-top: 50px;
 }
 
@@ -801,14 +795,14 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30vw;
+  width: 28vw;
   padding: 1.5vw;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .LLM_container p {
-  font-size: 3.3vh;
+  font-size: 2.7vh;
   text-align: left;
 }
 
@@ -850,9 +844,10 @@ align-items: center;
 
 #LLM {
   margin: 25px;
-  height: 25vw;
+  height: 20vw;
   width: 100%;
   border-radius: 4px;
+  background-position: center;
 }
 
 @media screen and (max-width: 850px) {
@@ -920,7 +915,7 @@ align-items: center;
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    background-color: #6B7A8F;
+    background-color: transparent;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -931,6 +926,22 @@ align-items: center;
     font-size: 10vw;
   }
 }
+
+.opp_container {
+  background-image: linear-gradient(to top, #FF5F6D, #FFC371);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.opp_container img {
+  height: 80%;
+  width: 80%;
+}
+/* #endregion*/
 /* #endregion */
 
 /* #product */
