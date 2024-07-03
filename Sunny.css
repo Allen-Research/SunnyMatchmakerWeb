@@ -201,10 +201,10 @@ button {
 }
 /*#endnav*/
 
-/* #main* /
+/* #main */
 
 .main {
-  background-color: #fff5d7;
+  background-color: #fceabb;
 }
 
 .main_container {
@@ -214,7 +214,7 @@ button {
   margin: 0 auto;
   justify-self: center;
   height: 90vh;
-  background-color: #fff5d7;
+  background-color: #fceabb;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -390,11 +390,11 @@ main_btn:hover {
     margin-top: 20px;
   }
 }
-/*#endmain*/
+/*#endregion*/
 
 /* #services */
 .services {
-  background: #fff;
+  background: #fff5d7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -405,7 +405,7 @@ main_btn:hover {
 /* old background #fceabb*/
 
 .services h1 {
-  background-color: #fff;
+  background-color: #fff5d7;
   background-image: linear-gradient(to left,
     #f83600 0%,
     #ffc500 100%);
@@ -468,7 +468,7 @@ main_btn:hover {
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #f77062;
+  background: #fe9d00;
   position: relative;
   top: 310px;
   left: 30px;
@@ -995,8 +995,16 @@ align-items: center;
   color: #131313;
 }
 
-/*#endregion*/
+#prod_section2_text h3 {
+  font-size: 1.5rem;
+}
 
+#prod_section2_text p {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+/*#endregion*/
 
 /* colors
 
