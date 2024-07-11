@@ -199,6 +199,7 @@ button {
 }
 
 /*#endnav*/
+
 /* #home */
 
 .main {
@@ -440,42 +441,6 @@ main_btn:hover {
 }
 
 #story_card1 {
-  background-image: url(images/drawings/coffee.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  position: relative;
-  color: #131313;
-}
-
-#story_card2 {
-  background-image: url(images/drawings/fallingInLove.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  position: relative;
-  color: #131313;
-}
-
-#story_card3 {
-  background-image: url(images/drawings/hotairballoon.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  position: relative;
-  color: #131313;
-}
-
-#story_card4 {
-  background-image: url(images/drawings/iceskating.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  position: relative;
-  color: #131313;
-}
-
-#story_card5 {
   background-image: url(images/drawings/mobile_app.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -484,8 +449,44 @@ main_btn:hover {
   color: #131313;
 }
 
+#story_card2 {
+  background-image: url(images/drawings/community.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  position: relative;
+  color: #131313;
+}
+
+#story_card3 {
+  background-image: url(images/drawings/swipe.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  position: relative;
+  color: #131313;
+}
+
+#story_card4 {
+  background-image: url(images/drawings/walkingOutphone.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  position: relative;
+  color: #131313;
+}
+
+#story_card5 {
+  background-image: url(images/drawings/texting.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  position: relative;
+  color: #131313;
+}
+
 #story_card6 {
-  background-image: url(images/drawings/onlinedating.svg);
+  background-image: url(images/drawings/chat.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 60%;
@@ -494,7 +495,7 @@ main_btn:hover {
 }
 
 #story_card7 {
-  background-image: url(images/drawings/partners.svg);
+  background-image: url(images/drawings/walking.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 60%;
@@ -503,7 +504,7 @@ main_btn:hover {
 }
 
 #story_card8 {
-  background-image: url(images/drawings/phoneHeart.svg);
+  background-image: url(images/drawings/friendsOnline.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 60%;
@@ -512,7 +513,7 @@ main_btn:hover {
 }
 
 #story_card9 {
-  background-image: url(images/drawings/redheart.svg);
+  background-image: url(images/drawings/heartBalloon.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 60%;
@@ -822,12 +823,7 @@ main_btn:hover {
 
 /* #services */
 .services {
-  background: #0f0c29;
-  background-image:
-  linear-gradient(
-    to top left,
-    #0f0c29,
-    #4e4376);
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -838,7 +834,7 @@ main_btn:hover {
 /* old background #fceabb*/
 
 .services h1 {
-  color: #fff;
+  color: #131313;
   background-size: 100%;
   margin-bottom: 5rem;
   font-size: 2.5rem;
