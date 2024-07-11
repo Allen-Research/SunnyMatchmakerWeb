@@ -71,7 +71,7 @@ button {
   align-items: center;
   padding: 0 1rem;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .button {
@@ -199,10 +199,10 @@ button {
 }
 
 /*#endnav*/
-/* #main */
+/* #home */
 
 .main {
-  background-color: #fceabb;
+  background-color: #fff;
 }
 
 .main_container {
@@ -212,7 +212,7 @@ button {
   margin: 0 auto;
   justify-self: center;
   height: 90vh;
-  background-color: #fceabb;
+  background-color: #fff;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
@@ -431,23 +431,47 @@ main_btn:hover {
   color: #fff;
 }
 
+/* main section 2 */
 .main2 {
   background: #fff;
+  width: 100%;
 }
 
 .main2_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
   align-items: center;
+  padding-bottom: 10vh;
 }
 
 .main2_content {
   width: 100%;
   max-width: 1300px;
-  margin-top: 50px;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main2_content_header {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  box-sizing: border-box;
+  padding: 1vw;
+}
+
+.main2_content_header h1 {
+  text-align: left;
+  font-family: Anton;
+  font-size: 4rem;
+}
+
+.triplet_container {
+  width: 100%;
+  max-width: 1300px;
+  margin-top: 3vh;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -457,9 +481,24 @@ main_btn:hover {
   display: flex;
   flex-direction: column;
   width: 30vw;
-  margin: 0 auto;
   box-sizing: border-box;
   padding: 1vw;
+}
+
+.triplet_content_text {
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+}
+
+.triplet_content_text h3 {
+  font-size: 2rem;
+  font-family: Montserrat;
+}
+
+.triplet_content_text p {
+  font-size: 1rem;
+  padding-top: 1.5vh;
+  font-family: Montserrat;
 }
 
 .main2_card {
@@ -474,8 +513,9 @@ main_btn:hover {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
   ),
-  url(images/real/branches.jpg);
+  url(images/real/couples/ipads.jpg);
   background-size: cover;
+  background-position: 50% 60%;
   position: relative;
   color: #131313;
 }
@@ -486,8 +526,9 @@ main_btn:hover {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
   ),
-  url(images/real/branches.jpg);
+  url(images/real/couples/couple.jpg);
   background-size: cover;
+  background-position: 50% 45%;
   position: relative;
   color: #131313;
 }
@@ -498,17 +539,156 @@ main_btn:hover {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
   ),
-  url(images/real/branches.jpg);
+  url(images/real/couples/pickingFlowers.jpg);
   background-size: cover;
+  background-position: 50% 25%;
   position: relative;
   color: #131313;
+}
+
+/*main section 3*/
+
+.main3 {
+  background: yellow;
+  max-width: 100vw;
+}
+
+.main3_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+  justify-self: center;
+  height: 90vh;
+  background: #fff;
+  z-index: 1;
+  width: 100%;
+  max-width: 100vw;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10vh;
+}
+
+.main3_content {
+  height: 80vh;
+  border-radius: 20px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-image: url(images/real/beach.jpg);
+  background-size: cover;
+  background-position: 50% 90%;
+  color: #fff;
+  display: flex;
+  width: 47vw;
+  border-radius: 20px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.main3_textcontainer1 {
+  display: flex;
+}
+
+#main3_content1 h2 {
+  font-size: 8vh;
+  font-family: Anton;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#main3_content2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(248, 246, 246, 0) 0%,
+    rgba(17, 17, 17, 0.6) 80%
+  ),
+  url(images/real/couples/surfCouple2.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
+  color: #fff;
+}
+
+#main3_content2 h3 {
+  font-size: 4.5vh;
+  font-family: Anton;
+  margin: auto;
+  margin-top: 35vh;
+  text-align: left;
+}
+
+.main3_textcontainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main3_content2 p {
+  font-size: 2.8vh;
+  margin: auto;
+  margin-top: 3vh;
+  text-align: left;
+  font-family: Montserrat;
+  color: #fff;
+}
+
+/* mission */
+.mission {
+  width: 100%;
+  background-image: linear-gradient(to top left, rgb(255, 222, 234), rgb(255, 247, 222));
+}
+
+.mission_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5vh;
+}
+
+.mission_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.mission_content p {
+  text-align: left;
+  font-size: 4vh;
+}
+
+.mission_content h2 {
+  font-size: 8vh;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  font-family: sans-serif;
+}
+
+.mission_content h3 {
+  font-size: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-family: sans-serif;
+}
+
+.mission_img {
+  width: 90vh;
+  height: 70vh;
+  background-image: url(images/real/sunFlower.jpg);
+  background-size: cover;
+  background-position: 90%;
+  margin: 5vh auto;
+
 }
 
 /*#endregion*/
 
 /* #services */
 .services {
-  background: #fff5d7;
+  background: #0f0c29;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -519,17 +699,10 @@ main_btn:hover {
 /* old background #fceabb*/
 
 .services h1 {
-  background-color: #fff5d7;
-  background-image: linear-gradient(to left,
-    #f83600 0%,
-    #ffc500 100%);
+  color: #fff;
   background-size: 100%;
   margin-bottom: 5rem;
   font-size: 2.5rem;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .services_container {
