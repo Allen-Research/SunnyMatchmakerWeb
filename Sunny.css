@@ -203,7 +203,7 @@ button {
 /* #home */
 
 .main {
-  background-color: #fff;
+  background-color: #131313;
 }
 
 .main_container {
@@ -213,15 +213,15 @@ button {
   margin: 0 auto;
   justify-self: center;
   height: 90vh;
-  background-color: #fff;
+  background-color: #131313;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
-  padding: 20px;
+  max-width: 1800px;
 }
 
 .main_content {
   margin: 0 auto;
+  padding: 3vw;
 }
 
 .main_content h1 {
@@ -268,9 +268,9 @@ button {
 
 .main_content p {
   margin-top: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #131313;
+  font-size: 1.8rem;
+  font-family: Montserrat;
+  color: #fff;
 }
 
 .main_btn {
@@ -315,10 +315,11 @@ main_btn:hover {
 }
 
 .main_img_container {
-  margin: 0 auto;
+  margin: 0;
 }
+
 .main_img_container img {
-  width: 50vh;
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -476,6 +477,12 @@ main_btn:hover {
   background-color: #fff;
   border-radius: 25px;
   padding: 1vh;
+}
+
+.story_card_container:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  cursor: pointer;
 }
 
 .story_card {
@@ -690,7 +697,7 @@ main_btn:hover {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
   ),
-  url(images/real/couples/ipads.jpg);
+  url(images/real/couples/sneakers.jpg);
   background-size: cover;
   background-position: 50% 60%;
   position: relative;
@@ -703,7 +710,7 @@ main_btn:hover {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.6) 100%
   ),
-  url(images/real/couples/couple.jpg);
+  url(images/heartinSUn.jpg);
   background-size: cover;
   background-position: 50% 45%;
   position: relative;
@@ -778,7 +785,7 @@ main_btn:hover {
   background-image: linear-gradient(
     to bottom,
     rgba(248, 246, 246, 0) 0%,
-    rgba(17, 17, 17, 0.6) 80%
+    rgba(17, 17, 17, 0.603) 100%
   ),
   url(images/real/couples/surfCouple2.jpg);
   background-size: cover;
@@ -806,7 +813,7 @@ main_btn:hover {
   margin: auto;
   margin-top: 3vh;
   text-align: left;
-  font-family: Montserrat;
+  font-family: ;
   color: #fff;
 }
 
@@ -867,7 +874,7 @@ main_btn:hover {
 
 /* #services */
 .services {
-  background: #fff;
+  background: #ffd560;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -881,7 +888,8 @@ main_btn:hover {
   color: #131313;
   background-size: 100%;
   margin-bottom: 5rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family: anton;
 }
 
 .services_container {
@@ -906,6 +914,19 @@ main_btn:hover {
   color: #fff;
 }
 
+.services_card:nth-child(1) {
+  background-color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ),
+  url(images/drawings/iceskating.svg);
+  background-position: top;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
 .services_card:nth-child(2) {
   background-image: linear-gradient(
     to bottom,
@@ -926,6 +947,7 @@ main_btn:hover {
   background-position: top;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  background-color: #fff;
 }
 
 .services h2 {
