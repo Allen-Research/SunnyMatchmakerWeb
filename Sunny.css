@@ -1590,6 +1590,24 @@ align-items: center;
 
 /*#endregion*/
 
+/* mission */
+
+.values {
+  background-color: #fff;
+  width: 100%;
+}
+
+.values_container {
+  height: 90vh;
+}
+
+.values_title {
+  height: 20vh;
+  display: flex;
+  align-content: center;
+  justify-content: left;
+}
+
 /* colors
 
 Blueberry #6B7A8F
