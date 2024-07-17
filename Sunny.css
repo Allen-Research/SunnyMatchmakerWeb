@@ -1620,14 +1620,15 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-content: center;
+  align-items: stretch;
   margin: 5vh auto;
 }
 
 .value {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: max-content;
-  margin: 2vh 0;
+  grid-auto-rows: 1fr;
+  grid-row-gap: 5vh;
 }
 
 .value_text {
@@ -1637,7 +1638,7 @@ align-items: center;
 }
 
 .value_text h2 {
-  font-size: 5.5vh;
+  font-size: 6vh;
   font-family: roboto-condensed;
 }
 
