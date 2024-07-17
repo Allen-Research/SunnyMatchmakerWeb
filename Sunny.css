@@ -603,13 +603,13 @@ main_btn:hover {
 }
 
 .newmain_content h1 {
-  font-size: 5rem;
+  font-size: 6vw;
   color: #fff;
   font-family: roboto-condensed;
 }
 
 .newmain_content p {
-  font-size: 1.5rem;
+  font-size: 2.2vw;
   color: #fff;
 }
 
