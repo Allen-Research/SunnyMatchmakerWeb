@@ -1595,18 +1595,85 @@ align-items: center;
 .values {
   background-color: #fff;
   width: 100%;
+  margin: 5vh auto;
+  max-width: 1800px;
 }
 
 .values_container {
-  height: 90vh;
+  margin: auto;
+  padding: 2rem;
 }
 
 .values_title {
-  height: 20vh;
+  height: 10vh;
   display: flex;
-  align-content: center;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.values_title h1 {
+  font-size: 8vh;
+  font-family: anton;
+}
+
+.values_section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 5vh auto;
+}
+
+.value {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: max-content;
+  margin: 2vh 0;
+}
+
+.value_text {
+  width: 40vw;
+  align-self: flex-end;
+  margin-top: 4vh;
+}
+
+.value_text h2 {
+  font-size: 5.5vh;
+  font-family: roboto-condensed;
+}
+
+.value_text p {
+  font-size: 2.8vh;
+  margin-top: 1.5vh;
+  font-family: Montserrat;
+}
+
+.value_img {
+  border-radius: 20px;
+  margin-right: 10vh;
+  background-image: url(images/real/couples/piggyBack.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#value_img1 {
+  background-image: url(images/real/couples/piggyBack.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#value_img2 {
+  background-image: url(images/real/sparks.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#value_img3 {
+  background-image: url(images/real/branches.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+
 
 /* colors
 
@@ -1623,3 +1690,4 @@ Sleuthe Yellow: #feb300
 Pink Leaf: #ffaaab
 
 current background #fff5d7
+font-family: Montserrat;
