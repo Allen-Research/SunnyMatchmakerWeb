@@ -828,7 +828,7 @@ main_btn:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 10vh 5vh;
+  padding: 3vw;
   height: 90vh;
   width: 100%;
 }
