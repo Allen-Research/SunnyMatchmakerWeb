@@ -1590,13 +1590,36 @@ align-items: center;
 
 /*#endregion*/
 
-/* mission */
+/* #mission */
 
+/* motto */
+
+.motto {
+  width: 100%;
+}
+
+.motto_content {
+  background-image: url(images/real/couples/reading.jpg);
+  background-size: cover;
+  background-position: 50% 85%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.motto_content h1 {
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: 30vh;
+  font-size: 3.5rem;
+}
+
+/* values */
 .values {
   background-color: #fff;
   width: 100%;
   margin: 5vh auto;
-  max-width: 1800px;
+  max-width: 80vw;
 }
 
 .values_container {
@@ -1605,7 +1628,7 @@ align-items: center;
 }
 
 .values_title {
-  height: 10vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1663,18 +1686,18 @@ align-items: center;
 }
 
 #value_img2 {
-  background-image: url(images/real/sparks.jpg);
-  background-position: 50% 50%;
+  background-image: url(images/real/holdingHands.jpg);
+  background-position: 50% 45%;
   background-size: cover;
 }
 
 #value_img3 {
-  background-image: url(images/real/branches.jpg);
+  background-image: url(images/real/couples/pickingFlowers.jpg);
   background-position: 50% 50%;
   background-size: cover;
 }
 
-
+/* #endregion */
 
 /* colors
 
