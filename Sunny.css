@@ -423,14 +423,14 @@ main_btn:hover {
 
 .home_content h1 {
   color: #fff;
-  font-size: 7rem;
+  font-size: 9vw;
   font-family: anton;
   text-align: center;
 }
 
 .home_content p {
   color: #fff;
-  font-size: 3rem;
+  font-size: 4vw;
   font-family: sans-serif;
   text-align: center;
 }
@@ -438,7 +438,6 @@ main_btn:hover {
 /* story board */
 
 .story_header {
-  margin: 5vh;
   box-sizing: border-box;
   margin: 2vh;
 }
@@ -455,8 +454,6 @@ main_btn:hover {
 }
 
 .story_container {
-  width: 100%;
-  max-width: 1800px;
   margin-top: 5vh;
   display: flex;
   justify-content: center;
@@ -886,7 +883,7 @@ main_btn:hover {
   color: #131313;
   background-size: 100%;
   margin-bottom: 5rem;
-  font-size: 3rem;
+  font-size: 5vw;
   font-family: anton;
 }
 
@@ -950,14 +947,14 @@ main_btn:hover {
 
 .services h2 {
   position: relative;
-  top: 290px;
-  left: 30px;
+  top: 65%;
+  left: 10%;
 }
 
 .services_card p {
   position: relative;
-  top: 300px;
-  left: 30px;
+  top: 68%;
+  left: 10%;
 }
 
 .services_card button {
@@ -968,8 +965,8 @@ main_btn:hover {
   border-radius: 4px;
   background: #fe9d00;
   position: relative;
-  top: 310px;
-  left: 30px;
+  top: 80%;
+  left: 10%;
   font-size: 1rem;
   cursor: pointer;
 }
