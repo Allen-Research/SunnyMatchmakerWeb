@@ -1712,6 +1712,33 @@ align-items: center;
   align-self: bottom;
 }
 
+.mission_statement_container {
+  padding: 4vw;
+  background-color: #131313;
+  width: 100%;
+}
+
+.mission_statement_content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.mission_statement_content h2 {
+  font-size: 3vw;
+  color: #fff;
+  font-family: anton;
+}
+
+.mission_statement_content p {
+  font-size: 5vw;
+  text-align: center;
+  color: #fff;
+  margin: 3vw 0;
+  font-family: monterastat;
+}
+
 /* #endregion */
 
 /* colors
