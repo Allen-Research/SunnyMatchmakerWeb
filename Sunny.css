@@ -617,12 +617,7 @@ main_btn:hover {
 
 .ad {
   width: 100%;
-  background-color: #ff8a6a;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(255, 241, 163),
-    #ff8a6a
-  );
+  background: #ffd667;
 }
 
 .ad_container {
@@ -960,6 +955,62 @@ main_btn:hover {
   background-size: cover;
   background-position: 90%;
   border-radius: 20px;
+}
+
+/* Join Us */
+
+.join_us {
+  width: 100%;
+  background: #242138;
+}
+
+.join_us_container {
+  margin: auto;
+  width: 80vw;
+  height: 90vh;
+  max-width: 1800px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.join_us_content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 5vh auto;
+}
+
+.join_us_photo {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(4, 4, 4, 0.218) 100%
+  ),
+  url(images/real/hotAirBalloon.jpg);
+  height: 70vh;
+  width: 70vw;
+  max-width: 1620px;
+  padding: 5vw;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: 50% 68%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.join_us_photo h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 9.5vh;
+  font-family: anton;
+}
+
+.join_us_button {
+  margin: auto;
 }
 
 /*#endregion*/
