@@ -1001,59 +1001,6 @@ main_btn:hover {
   color: #fff;
 }
 
-/* mission */
-.mission {
-  width: 100%;
-  background-color: #c4e2ff;
-  background-image: linear-gradient(to top right, #c4e2ff, rgb(255, 243, 177));
-  color: #131313;
-  height: 90vh;
-}
-
-.mission_container {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 3vw;
-  height: 90vh;
-  width: 100%;
-}
-
-.mission_content {
-  display: flex;
-  padding: 5vh 0;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-  padding-right: 3vw;
-}
-
-.mission_content p {
-  text-align: left;
-  font-size: 4vh;
-}
-
-.mission_content h2 {
-  font-size: 9vh;
-  font-family: roboto-condensed;
-  color: #131313;
-  margin-bottom: 2vh;
-}
-
-.mission_content h3 {
-  font-size: 5vh;
-  font-family: sans-serif;
-}
-
-.mission_img {
-  width: 90vh;
-  background-image: url(images/real/sunFlower.jpg);
-  background-size: cover;
-  background-position: 90%;
-  border-radius: 20px;
-}
-
 /* Join Us */
 
 .join_us {
@@ -1384,7 +1331,7 @@ main_btn:hover {
 
 /* #business */
 
-/*#business_section1*/
+/* main */
 #main_business {
   background-color: #fceabb;
 }
@@ -1434,9 +1381,8 @@ main_btn:hover {
   -moz-text-fill-color: transparent;
 }
 
-/*#endregion*/
 
-/*#business_opportunity*/
+/* opportunity */
 .opportunity {
   background-color: #e6afa0;
 }
@@ -1681,11 +1627,10 @@ align-items: center;
   height: 80%;
   width: 80%;
 }
-/* #endregion */
 
 /* #product */
 
-/*#product_main*/
+/* main */
 #main_app_img {
   border-radius: 10px;
   width: 100%;
@@ -1706,9 +1651,8 @@ align-items: center;
 #product_main_container {
   background-color: #dff6ff;
 }
-/*#endregion*/
 
-/*#product_section1*/
+/* section1 */
 #product2 {
   background-color: #fceabb;
 }
@@ -1758,9 +1702,7 @@ align-items: center;
   width: 100%;
 }
 
-/*#endregion*/
-
-/*#product_section2*/
+/* section2 */
 
 .scrapbook {
   width: 100%;
@@ -1826,7 +1768,6 @@ align-items: center;
   object-position: right;
   border-radius: 20px;
 }
-/*#endregion*/
 
 /*#endregion*/
 
@@ -1854,6 +1795,61 @@ align-items: center;
   margin-top: 30vh;
   font-size: 7vw;
   text-align: center;
+}
+
+/* mission */
+.mission {
+  width: 100%;
+  background-color: #c4e2ff;
+  background-image: linear-gradient(to top right, #c4e2ff, rgb(255, 243, 177));
+  color: #131313;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mission_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3vw;
+  width: 100%;
+}
+
+.mission_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 3vw;
+}
+
+.mission_content p {
+  text-align: left;
+  font-size: 4vh;
+}
+
+.mission_content h2 {
+  font-size: 9vh;
+  font-family: roboto-condensed;
+  color: #131313;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+}
+
+.mission_content h3 {
+  font-size: 5vh;
+  font-family: sans-serif;
+}
+
+.mission_img {
+  width: 90vh;
+  background-image: url(images/real/sunFlower.jpg);
+  background-size: cover;
+  background-position: 90%;
+  border-radius: 20px;
 }
 
 /* values */
