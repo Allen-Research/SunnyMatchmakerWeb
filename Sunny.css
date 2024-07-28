@@ -1337,6 +1337,7 @@ main_btn:hover {
 
 /* #mission */
 
+
 /* motto */
 
 .motto {
@@ -1498,6 +1499,173 @@ main_btn:hover {
   background-position: 50% 50%;
   background-size: cover;
 }
+
+/* #endregion */
+
+/* #about */
+
+.team {
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+
+.team_container {
+  width: 95vw;
+  max-width: 1800px;
+  display: flex;
+  align-content: center;
+  margin: auto;
+}
+
+.team_content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.team_content h2 {
+  padding: 2vw;
+  font-size: 5vw;
+  font-family: anton;
+  color: rgb(0, 0, 0);
+}
+
+.team_members {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+  width: 95vw;
+  max-width: 1800px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 30vw;
+  max-width: 540px;
+  margin: auto;
+}
+
+.member h3 {
+  margin: 5vh;
+
+}
+
+.member_photo {
+  background-image: url(images/real/branches.jpg);
+  width: 10vw;
+  max-width: 270px;
+  background-size: cover;
+  border-radius: 10vw;
+  height: 10vw;
+  max-height: 270px;
+  margin: auto;
+}
+
+.member_info {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.member_info h3 {
+  margin: auto;
+  padding: 10px 0;
+  font-size: 2vw;
+  color: #131313;
+  font-family: Montserrat;
+}
+
+.member_info p {
+  margin: auto;
+  padding: 5px;
+  font-size: 1vw;
+  color: #131313;
+  font-family: Montserrat;
+}
+
+.member_photo_triplet {
+  background-image: url(images/real/branches.jpg);
+  width: 15vw;
+  max-width: 370px;
+  background-size: cover;
+  border-radius: 20px;
+  height: 15vw;
+  max-height: 370px;
+  margin: 20px auto;
+}
+
+/*#endregion*/
+
+/* #region */
+
+.LLM {
+  width: 100%;
+  height: 90vh;
+  background: rgb(203, 203, 255);
+}
+
+.LLM_container {
+  width: 95vw;
+  max-width: 1800px;
+  background: rgb(203, 203, 255);
+  margin: auto;
+}
+
+.LLM_content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.LLM_content h1 {
+  font-size: 3.3vw;
+  font-family: anton;
+  padding: 10px 0;
+  margin-top: 10vh;
+}
+
+.LLM_content h2 {
+  font-size: 2vw;
+  font-family: Montserrat;
+  padding-bottom: 20px;
+}
+
+.LLM_steps {
+  margin: 5vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.LLM_step_card {
+  flex: 0 0 27vw;
+  padding: 20px;
+  height: 40vh;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.LLM_step_card h3 {
+  font-size: 1.8vw;
+  font-family: Montserrat;
+  padding-bottom: 10px;
+}
+
+.LLM_step_card p {
+  font-size: 1.3vw;
+  font-family: Montserrat;
+}
+
 
 /* #endregion */
 
