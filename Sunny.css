@@ -713,13 +713,6 @@ main_btn:hover {
   color: #fff;
 }
 
-@media screen {
-
-  .newmain_container {
-    background-position: 50% 100%;
-  }
-}
-
 /* ad */
 
 .ad {
@@ -1081,6 +1074,44 @@ main_btn:hover {
   border-radius: 20px;
   margin-top: 2vw;
   font-size: 2.2vh;
+}
+
+@media screen and (max-width: 1160px) {
+
+  .newmain_container {
+    background-position: 50% 100%;
+  }
+
+  .newmain_content {
+    margin: auto;
+    margin-top: 10vh;
+    width: 70vw;
+  }
+
+  .newmain_content h1, .newmain_content p {
+    text-align: center;
+  }
+
+  .newmain_content h1 {
+    font-size: 8vw;
+  }
+
+  .newmain_content p {
+    font-size: 4vw;
+  }
+
+  /* ad */
+  .ad_container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .ad_content {
+    width: 70vw;
+  }
 }
 
 /*#endregion*/
