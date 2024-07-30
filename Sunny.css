@@ -1076,7 +1076,7 @@ main_btn:hover {
   font-size: 2.2vh;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 960px) {
 
   .newmain_container {
     background-position: 50% 100%;
@@ -1107,10 +1107,54 @@ main_btn:hover {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding: 0;
   }
 
   .ad_content {
-    width: 70vw;
+    width: 80vw;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    height: 30vh;
+  }
+
+  .ad_content h1, .ad_content p, .ad_content div {
+    text-align: center;
+    padding: 1vh;
+  }
+
+  .ad_content h1 {
+    font-size: 5vh;
+  }
+
+  .ad_content p {
+    font-size: 3vh;
+  }
+
+  .ad_img {
+    width: 80vw;
+    height: 40vh;
+    background-position: 50% 40%;
+  }
+
+  .ad_img_container {
+    height: 30vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin: auto;
+  }
+
+  #ad_btn {
+    margin: auto;
+    width: 20vw;
+    border-radius: 25px;
+    margin-top: 0;
+  }
+
+  .ad_btn_container {
+    margin-top: 0;
   }
 }
 
