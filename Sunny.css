@@ -125,7 +125,7 @@ button {
   }
 
   .navbar_menu.active {
-    background: #fff5d7;
+    background: #fff;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -177,6 +177,7 @@ button {
     width: 80%;
     height: 80px;
     margin: 0;
+    font-size: 3vh;
   }
 
   .navbar_toggle .bar{
@@ -1008,7 +1009,6 @@ main_btn:hover {
 
 .join_us {
   width: 100%;
-  background: ;
 }
 
 .join_us_container {
@@ -1078,6 +1078,7 @@ main_btn:hover {
 
 @media screen and (max-width: 960px) {
 
+  /* main */
   .newmain_container {
     background-position: 50% 100%;
   }
@@ -1102,7 +1103,7 @@ main_btn:hover {
 
   /* ad */
   .ad_container {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -1111,7 +1112,7 @@ main_btn:hover {
   }
 
   .ad_content {
-    width: 80vw;
+    width: 90vw;
     justify-content: center;
     align-content: center;
     padding: 0;
@@ -1124,16 +1125,16 @@ main_btn:hover {
   }
 
   .ad_content h1 {
-    font-size: 5vh;
+    font-size: 5.5vh;
   }
 
   .ad_content p {
-    font-size: 3vh;
+    font-size: 4vh;
   }
 
   .ad_img {
-    width: 80vw;
-    height: 40vh;
+    width: 90vw;
+    height: 45vh;
     background-position: 50% 40%;
   }
 
@@ -1148,13 +1149,118 @@ main_btn:hover {
 
   #ad_btn {
     margin: auto;
-    width: 20vw;
     border-radius: 25px;
     margin-top: 0;
+    width: 30vw;
+    font-size: 3vh;
   }
 
   .ad_btn_container {
     margin-top: 0;
+  }
+
+  /*section 2 */
+
+  .main2_content_header {
+    width: 85vw;
+    box-sizing: border-box;
+    padding: 1vw;
+  }
+
+  .main2_content_header h1 {
+    font-size: 10vw;
+  }
+
+  .triplet_container {
+    width: 100%;
+    max-width: 1300px;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .triplet_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 85vw;
+    height: 70vh;
+    margin: auto;
+  }
+
+  .triplet_content_text {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 2vh;
+  }
+
+  .triplet_content_text p {
+    font-size: 3vh;
+  }
+
+  .triplet_content_text h2 {
+    font-size: 3.5vh;
+  }
+
+
+  .main2_card {
+    height: 18vw;
+    border-radius: 25px;
+    background-position: center;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* join us */
+  .join_us_container {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .join_us_photo {
+    height: 57vh;
+    width: 100%;
+    border-radius: 0;
+    background-position: 50% 92%;
+    padding: 0;
+  }
+
+  #join_btn {
+    width: 31vw;
+    font-size: 3vh;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  /* section 3 */
+  .main3_container {
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+  }
+
+  .main3_content {
+    height: 60vh;
+    width: 85vw;
+    margin: 2vh auto;
+  }
+
+  #main3_content2 p {
+    font-size: 2.6vh;
+    padding-bottom: 2vh;
+  }
+
+  .main3_button {
+    border-radius: 25px;
+    width: 30vw;
+    font-size: 3vh;
+    margin-top: 2.5vh;
   }
 }
 
