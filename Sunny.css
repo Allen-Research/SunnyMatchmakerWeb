@@ -1543,7 +1543,6 @@ main_btn:hover {
 
 /* #mission */
 
-
 /* motto */
 
 .motto {
@@ -1628,12 +1627,10 @@ main_btn:hover {
   background-color: #fff;
   width: 100%;
   margin: 5vh auto;
-  max-width: 80vw;
 }
 
 .values_container {
   margin: auto;
-  padding: 2rem;
 }
 
 .values_title {
@@ -1704,6 +1701,56 @@ main_btn:hover {
   background-image: url(images/real/couples/pickingFlowers.jpg);
   background-position: 50% 50%;
   background-size: cover;
+}
+
+@media screen and (max-width: 960px) {
+  .motto_content h1 {
+    font-family: monterastat;
+    color: #fff;
+    margin: 10vh;
+    margin-top: 30vh;
+    font-size: 10vh;
+    text-align: center;
+  }
+
+  /* mission */
+  .mission_container {
+    flex-direction: column;
+  }
+
+  .mission_content h2 {
+    text-align: center;
+  }
+
+  /* values */
+
+  .values {
+    margin: auto;
+  }
+
+  .values_title {
+    width: 85vw;
+    margin: auto;
+  }
+
+  .value {
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .value_text {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .value_img {
+    height: 100vh;
+    width: 85vw;
+    margin: auto;
+  }
 }
 
 /* #endregion */
