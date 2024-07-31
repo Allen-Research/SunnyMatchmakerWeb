@@ -7,6 +7,8 @@
   padding: 0;
   font-family: sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-x: clip !important;
 }
 
 .navbar {
@@ -1239,16 +1241,16 @@ main_btn:hover {
 
   /* section 3 */
   .main3_container {
-    height: 140vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
-    width: 90vw;
   }
 
   .main3_content {
     height: 60vh;
-    width: 85vw;
-    margin: 2vh auto;
+    width: 100vw;
+    margin: auto;
+    border-radius: 0;
   }
 
   #main3_content2 p {
