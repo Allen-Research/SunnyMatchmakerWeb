@@ -1085,7 +1085,14 @@ main_btn:hover {
 
   /* main */
   .newmain_container {
-    background-position: 50% 100%;
+    background-position: 50% 0%;
+    background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.379) 100%
+    ),
+    url(images/real/surfCouple.jpg);;
+    height: 93vh;
   }
 
   .newmain_content {
