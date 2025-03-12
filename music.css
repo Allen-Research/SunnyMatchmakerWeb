@@ -1,0 +1,331 @@
+/* tech new */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a1a1a; /* Dark background for grunge feel */
+  color: #f5f5f5; /* Light text for contrast */
+  line-height: 1.6;
+}
+
+/* Navbar (already styled, so no changes here) */
+
+/* Hero Section */
+.hero {
+  background: url('images/grunge-texture.jpg') no-repeat center center/cover; /* Grunge texture */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.hero_container {
+  z-index: 1;
+}
+
+.hero h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: #8a5a83; /* Muted dark purple for headings */
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #f5f5f5;
+}
+
+.hero_btn {
+  background-color: #8a5a83; /* Muted dark purple button */
+  color: #f5f5f5;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero_btn:hover {
+  background-color: #6a4465; /* Darker muted purple on hover */
+}
+
+/* Music Technology Section */
+.LLM {
+  padding: 4rem 2rem;
+  background-color: #2a2a2a; /* Darker background for contrast */
+}
+
+.LLM_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.LLM h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #8a5a83; /* Muted dark purple for headings */
+  margin-bottom: 1rem;
+}
+
+.LLM h2 {
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  margin-bottom: 2rem;
+}
+
+.LLM_steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.LLM_step_card {
+  background: #333; /* Dark card background */
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.LLM_step_card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+}
+
+.LLM_step_card h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #8a5a83; /* Muted dark purple for headings */
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.LLM_step_card p {
+  font-size: 1rem;
+  color: #f5f5f5;
+  position: relative;
+  z-index: 1;
+}
+
+.LLM_step_card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(138, 90, 131, 0.5); /* Muted dark purple glow on hover */
+}
+
+/* Creative Process Section */
+.creative_process {
+  padding: 4rem 2rem;
+  background: url('images/grunge-texture-2.jpg') no-repeat center center/cover; /* Another grunge texture */
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.creative_process_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.creative_process h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #8a5a83; /* Muted dark purple for headings */
+  margin-bottom: 1rem;
+}
+
+.creative_process p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.creative_process_steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.creative_process_step {
+  background: rgba(51, 51, 51, 0.8); /* Semi-transparent dark background */
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.creative_process_step h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #8a5a83; /* Muted dark purple for headings */
+  margin-bottom: 1rem;
+}
+
+.creative_process_step p {
+  font-size: 1rem;
+  color: #f5f5f5;
+}
+
+.creative_process_step:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(138, 90, 131, 0.5); /* Muted dark purple glow on hover */
+}
+
+/* Listen & Watch Section */
+.listen_watch {
+  padding: 4rem 2rem;
+  background-color: #2a2a2a; /* Dark background */
+  text-align: center;
+}
+
+.listen_watch_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.listen_watch h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #6a5a83; /* Muted dark blue-purple for headings */
+  margin-bottom: 1rem;
+}
+
+.listen_watch p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.listen_watch_links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.listen_watch_link {
+  background-color: #6a5a83; /* Muted dark blue-purple button */
+  color: #f5f5f5;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.listen_watch_link:hover {
+  background-color: #4a3a63; /* Darker muted blue-purple on hover */
+  transform: translateY(-5px); /* Lift button on hover */
+}
+
+/* Services Section */
+.services {
+  padding: 4rem 2rem;
+  background: url('images/grunge-texture-3.jpg') no-repeat center center/cover; /* Another grunge texture */
+  text-align: center;
+}
+
+.services h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 3rem;
+  color: #6a5a83; /* Muted dark blue-purple for headings */
+  margin-bottom: 1rem;
+}
+
+.services_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services_card {
+  background: rgba(51, 51, 51, 0.8); /* Semi-transparent dark background */
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.services_card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for better text visibility */
+}
+
+.services_card h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8rem;
+  color: #6a5a83; /* Muted dark blue-purple for headings */
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.services_card p {
+  font-size: 1rem;
+  color: #f5f5f5;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.services_card button {
+  background-color: #6a5a83; /* Muted dark blue-purple button */
+  color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.services_card button:hover {
+  background-color: #4a3a63; /* Darker muted blue-purple on hover */
+}
+
+.services_card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 0 20px rgba(106, 90, 131, 0.5); /* Muted dark blue-purple glow on hover */
+}
+
+/* Footer (already styled, so no changes here) */

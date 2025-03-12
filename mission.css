@@ -1,0 +1,215 @@
+
+.motto {
+  width: 100%;
+}
+
+.motto_content {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(17, 17, 17, 0.6) 100%
+  ), url(images/Daughters_of_Venus/DOV3.JPG);
+  background-size: cover;
+  background-position: 50% 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.motto_content h1 {
+  font-family: monterastat;
+  color: #fff;
+  margin: 10vh;
+  margin-top: 30vh;
+  font-size: 7vw;
+  text-align: center;
+}
+
+/* mission */
+.mission {
+  width: 100%;
+  background-color: #c4e2ff;
+  background-image: linear-gradient(to top right, #c4e2ff, rgb(255, 243, 177));
+  color: #131313;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.mission_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3vw;
+  width: 100%;
+}
+
+.mission_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding-right: 3vw;
+}
+
+.mission_content p {
+  text-align: left;
+  font-size: 4vh;
+}
+
+.mission_content h2 {
+  font-size: 9vh;
+  font-family: roboto-condensed;
+  color: #131313;
+  margin-bottom: 5vh;
+  margin-top: 3vh;
+}
+
+.mission_content h3 {
+  font-size: 5vh;
+  font-family: sans-serif;
+}
+
+.mission_img {
+  width: 90vh;
+  background-image: url(images/Daughters_of_Venus/DOV10.JPG);
+  background-size: cover;
+  background-position: 90%;
+  border-radius: 20px;
+}
+
+/* values */
+.values {
+  background-color: #fff;
+  width: 100%;
+  margin: 5vh auto;
+}
+
+.values_container {
+  margin: 10vw;
+}
+
+.values_title {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.values_title h1 {
+  font-size: 8vh;
+  font-family: anton;
+}
+
+.values_section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: stretch;
+  margin: 5vh auto;
+}
+
+.value {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-row-gap: 5vh;
+}
+
+.value_text {
+  width: 40vw;
+  align-self: flex-end;
+  margin-top: 4vh;
+}
+
+.value_text h2 {
+  font-size: 6vh;
+  font-family: roboto-condensed;
+}
+
+.value_text p {
+  font-size: 2.8vh;
+  margin-top: 1.5vh;
+  font-family: Montserrat;
+}
+
+.value_img {
+  border-radius: 20px;
+  margin-right: 10vh;
+  background-image: url(images/Daughters_of_Venus/DOV12.JPG);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#value_img1 {
+  background-image: url(images/Daughters_of_Venus/DOV14.JPG);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#value_img2 {
+  background-image: url(images/Daughters_of_Venus/DOV30.JPG);
+  background-position: 50% 45%;
+  background-size: cover;
+}
+
+#value_img3 {
+  background-image: url(images/Daughters_of_Venus/DOV31.jpeg);
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 960px) {
+  .motto_content h1 {
+    font-family: monterastat;
+    color: #fff;
+    margin: 10vh;
+    margin-top: 30vh;
+    font-size: 15vw;
+    text-align: center;
+  }
+
+  /* mission */
+  .mission_container {
+    flex-direction: column;
+  }
+
+  .mission_content h2 {
+    text-align: center;
+    font-size: 10vw;
+  }
+
+
+
+  /* values */
+
+  .values {
+    margin: auto;
+  }
+
+  .values_title {
+    width: 85vw;
+    margin: auto;
+  }
+
+  .value {
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .value_text {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .value_img {
+    height: 100vh;
+    width: 85vw;
+    margin: auto;
+  }
+}
