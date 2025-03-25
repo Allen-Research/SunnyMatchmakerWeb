@@ -1,5 +1,19 @@
 /* #home */
 
+#home_nav {
+  background: transparent;
+  height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+
 .main {
   background-color: #131313;
 }
@@ -210,7 +224,7 @@ main_btn:hover {
     rgba(0, 0, 0, 0) 0%,
     rgba(17, 17, 17, 0.27) 10%
   ),
-  url(images/Daughters_of_Venus/DOV2.JPEG);
+  url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV2.JPEG);
   background-size: cover;
   background-position: 100% 57%;
   height: 90vh;
@@ -298,7 +312,7 @@ main_btn:hover {
     rgba(255, 255, 255, 0.203) 100%,
     rgba(255, 255, 255, 0.297) 100%
   ),
-  url(images/Daughters_of_Venus/DOV7.jpeg);
+  url(images/Daughters_of_Venus/Shows/Husky-Jam/DOV7.jpeg);
   background-size: cover;
   background-position: 50% 70%;
   height: 45vh;
@@ -321,7 +335,7 @@ main_btn:hover {
     rgba(255, 0, 212, 0.203) 100%,
     rgba(179, 0, 255, 0.297) 100%
   ),
-  url(images/Daughters_of_Venus/DOV26.JPG);
+  url(images/Daughters_of_Venus/Shows/QFC-Show/IMG_5013.JPG);
   background-position: 50% 30%;
 }
 
@@ -331,7 +345,7 @@ main_btn:hover {
     rgba(255, 0, 212, 0.203) 100%,
     rgba(179, 0, 255, 0.297) 100%
   ),
-  url(images/Daughters_of_Venus/DOV1.JPEG);
+  url(images/Daughters_of_Venus/Shows/Marthas-2:21:24/IMG_4879.JPG);
   background-position: 50% 82%;
 }
 
@@ -418,41 +432,42 @@ main_btn:hover {
 }
 
 #story_card1 {
-  background-image: url(images/Daughters_of_Venus/DOV12.JPG); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/Photoshoots/First-Photoshoot/DOV13.JPG); /* Replace with your image */
+  background-position: 50% 50%;
 }
 
 #story_card2 {
-  background-image: url(images/Daughters_of_Venus/DOV23.JPG);
-  background-position: 50% 5%; /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/miscelanious/DOV28.JPG);
+  background-position: 80% 5%; /* Replace with your image */
 }
 
 #story_card3 {
-  background-image: url(images/Daughters_of_Venus/DOV11.jpg); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/miscelanious/DOV10.JPG); /* Replace with your image */
 }
 
 #story_card4 {
-  background-image: url(images/Daughters_of_Venus/DOV6.jpeg); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/miscelanious/DOV42.jpeg); /* Replace with your image */
 }
 
 #story_card5 {
-  background-image: url(images/Daughters_of_Venus/DOV8.jpeg); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/Fundraisers/DOV43.jpeg); /* Replace with your image */
 }
 
 #story_card6 {
-  background-image: url(images/Daughters_of_Venus/DOV40.jpg);
+  background-image: url(images/Daughters_of_Venus/miscelanious/DOV42.jpeg);
   background-position: 50% 70%; /* Replace with your image */
 }
 
 #story_card7 {
-  background-image: url(images/Daughters_of_Venus/DOV42.jpeg); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/Fundraisers/DOV43.jpeg); /* Replace with your image */
 }
 
 #story_card8 {
-  background-image: url(images/Daughters_of_Venus/DOV10.jpg); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/Fundraisers/DOV44.jpeg); /* Replace with your image */
 }
 
 #story_card9 {
-  background-image: url(images/Daughters_of_Venus/DOV35.jpeg); /* Replace with your image */
+  background-image: url(images/Daughters_of_Venus/Fundraisers/DOV8.jpeg); /* Replace with your image */
 }
 
 .triplet_content_text h3 {

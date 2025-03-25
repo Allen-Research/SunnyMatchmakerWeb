@@ -22,38 +22,30 @@
       href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@351&family=Roboto+Condensed:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lilita+One&display=swap" rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lilita+One&display=swap" rel="stylesheet">
   </head>
   <body>
         <!--Nav Bar-->
-        <nav class="navbar">
-          <div class="navbar_container">
-            <a href="index.html" id="navbar_logo">
-              <img src="images/Daughters_of_Venus/DOV-logo.jpeg" alt="The Daughters of Venus Logo"
-            /></a>
-            <div class="navbar_toggle" id="mobile_menu">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-            <ul class="navbar_menu">
-              <li class="navbar_item">
-                <a href="home.html" class="navbar_links">Home</a>
-              </li>
-              <li class="navbar_item">
-                <a href="mission.html" class="navbar_links">About</a>
-              </li>
-              <li class="navbar_item">
-                <a href="music.html" class="navbar_links">Music</a>
-              </li>
-              <li class="navbar_item">
-                <a href="members.html" class="navbar_links">Members</a>
-              </li>
-              <li class="navbar_btn">
-                <a href="/" class="button">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <div class="nav">
+          <div class="logo" id="dove-link"><a href="front.html"></a></div>
+          <h1><a class="nav-title" href="front.html">Daughters of Venus</a></h1>
+          <ul class="nav-buttons">
+            <li><a href="members.html">Members</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="mission.html">Mission</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="social-icons">
+            <li><a href="https://www.instagram.com/_daughtersofvenus_/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com/@daughtersofvenusbandd?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://www.youtube.com/@daughtersofvenus/videos"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/4RuyJ2DtClFrqj1d3snZf0?si=Ge79wgOGSUq6VcNfJvtS0A"><i class="fa-brands fa-spotify"></i></a></li>
+            <li><a href="https://music.apple.com/us/artist/daughters-of-venus/1802101019"><i class="fa-brands fa-itunes-note"></i></a></li>
+          </ul>
+        </div>
 
 
     <!-- Members Section -->
@@ -62,11 +54,11 @@
         <h1>Meet The Band</h1>
         <div class="members_grid">
           <!-- October Allen -->
-          <div class="member_card">
-            <div class="member_photo" style="background-image: url('images/Daughters_of_Venus/DOV15.jpg');"></div>
+          <div class="member_card" id="october">
+            <div class="member_photo"></div>
             <div class="member_info">
               <h2>October Allen</h2>
-              <h3>Lead Singer</h3>
+              <h3>Vocals, Guitar</h3>
               <p>
                 October's powerful vocals and emotional delivery are the heart of The Daughters of Venus.
                 She believes music is a way to connect with others and express the unspoken.
@@ -76,11 +68,11 @@
           </div>
 
           <!-- Ava Mitchell -->
-          <div class="member_card">
+          <div class="member_card" id="ava">
             <div class="member_photo" style="background-image: url('images/Daughters_of_Venus/DOV16.jpg');"></div>
             <div class="member_info">
               <h2>Ava Mitchell</h2>
-              <h3>Lead Guitar</h3>
+              <h3>Guitar, Vocals</h3>
               <p>
                 Ava's electrifying guitar riffs and solos bring energy and edge to the band's sound.
                 She loves experimenting with new sounds and techniques, and for her,
@@ -90,10 +82,10 @@
           </div>
 
           <!-- Jenny Mcmillan -->
-          <div class="member_card">
+          <div class="member_card" id="jenny">
             <div class="member_photo" style="background-image: url('images/Daughters_of_Venus/DOV13.jpg');"></div>
             <div class="member_info">
-              <h2>Jenny Mcmillan</h2>
+              <h2>Jenny McMillan</h2>
               <h3>Drums</h3>
               <p>
                 Jenny's dynamic drumming drives the band's rhythm and energy.
@@ -104,11 +96,11 @@
           </div>
 
           <!-- Kiri -->
-          <div class="member_card">
+          <div class="member_card" id="kiri">
             <div class="member_photo" style="background-image: url('images/Daughters_of_Venus/DOV14.jpg');"></div>
             <div class="member_info">
               <h2>Kiri</h2>
-              <h3>Bass</h3>
+              <h3>Bass, Vocals</h3>
               <p>
                 Kiri's groovy basslines anchor the band's sound and add depth to their music.
                 She loves the collaborative nature of the band and sees it as a way to
@@ -118,7 +110,7 @@
           </div>
 
           <!-- Ayeda -->
-          <div class="member_card">
+          <div class="member_card" id="ayeda">
             <div class="member_photo" style="background-image: url('images/Daughters_of_Venus/DOV15.jpg');"></div>
             <div class="member_info">
               <h2>Ayeda</h2>
@@ -132,7 +124,7 @@
           </div>
 
           <!-- Kate Wenz -->
-          <div class="member_card">
+          <div class="member_card" id="kate">
             <div class="member_photo" style="background-image: url('images/Daughters_of_Venus/DOV16.jpg');"></div>
             <div class="member_info">
               <h2>Kate Wenz</h2>
@@ -146,6 +138,20 @@
         </div>
       </div>
     </div>
+
+<!--- youtubeee
+    <div class="social-media-section">
+      <div class="youtube-container">
+        <div class="youtube">
+          <h1>Vlogs</h1>
+          <div class="youtube-embed">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TPjkyc8U-Jg?si=P7kP5X-fx3X7g6Kt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Check out our youtube channel for show day / rehearsal vlogs, music videos, shorts and more!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
 
     <!--Footer Section-->
     <div class="footer_container">
@@ -202,5 +208,54 @@
       </div>
     </div>
     <script src="Sunny.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+            const doveLink = document.getElementById('dove-link');
+
+            doveLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                releaseDoves(5); // Release 5 doves
+            });
+
+            function releaseDoves(count) {
+                for (let i = 0; i < count; i++) {
+                    setTimeout(() => {
+                        createDove();
+                    }, i * 300); // Stagger dove creation
+                }
+            }
+
+            function createDove() {
+                const dove = document.createElement('div');
+                dove.className = 'dove';
+
+                // Random variation in starting position (bottom right area)
+                const startX = window.innerWidth + (Math.random() * 100);
+                const startY = window.innerHeight + (Math.random() * 100);
+
+                // Random size
+                const size = 1 + Math.random() * 2;
+
+                // Random flight variation
+                const flightVariation = Math.random() * 100 - 50;
+
+                // Apply styles
+                dove.style.fontSize = `${size}rem`;
+                dove.style.right = `-100px`;
+                dove.style.bottom = `-100px`;
+                dove.style.animationDuration = `${6 + Math.random() * 4}s`;
+
+                // Add slight rotation and flight path variation
+                dove.style.setProperty('--flight-var', `${flightVariation}px`);
+
+                document.body.appendChild(dove);
+
+                // Remove dove after animation completes
+                setTimeout(() => {
+                    dove.remove();
+                }, 10000);
+            }
+        });
+    </script>
   </body>
 </html>

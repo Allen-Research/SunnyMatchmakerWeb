@@ -489,3 +489,40 @@ Pink Leaf: #ffaaab
 
 current background #fff5d7
 font-family: Montserrat;
+
+/* dove */
+.dove {
+  position: fixed;
+  font-size: 2rem;
+  z-index: 100;
+  pointer-events: none;
+  user-select: none;
+  animation: flyDiagonal 8s linear forwards;
+  opacity: 0;
+  transform-origin: center;
+}
+
+@keyframes flyDiagonal {
+  0% {
+      transform: translateX(100px) translateY(100px) rotate(0deg);
+      opacity: 0;
+      left: 100%;
+      top: 100%;
+  }
+  10% {
+      opacity: 1;
+  }
+  90% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(-100px) translateY(-100px) rotate(-15deg);
+      opacity: 0;
+      left: 0;
+      top: 0;
+  }
+}
+
+.dove::before {
+  content: "🕊️";
+}
